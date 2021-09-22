@@ -1,0 +1,17 @@
+
+/*
+商品画像が小さくなりすぎないように調整
+*/
+#pagebody .rakutenLimitedId_ImageMain1-3 {
+    cursor: pointer;
+    width: 400px;
+    margin-right: 2em;
+    display: block;
+}
+
+/* 
+目玉商品と人気ランキングの背景調整
+*/
+.padding-bottom-border-medium--3nPtF, #rnkInShopPartsArea {
+background-color: transparent !important;
+}
