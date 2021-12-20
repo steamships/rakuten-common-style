@@ -1,0 +1,20 @@
+<!-- 楽天GOLD配置ファイル
+
+# PC用のレフトバナー
+年末年始終わったらgithubで「css/pc-left-banner.css」を全てコメントアウトして、リリースすれば一撃で外せる
+
+-- RMS　埋込みコード --
+<iframe src="GOLD配置URL" style="position: absolute;top: 0;left: 0;height: 100%;width: 100px;z-index: 1;" scrolling="no"　frameborder="0"></iframe><style>body{position:relative;}</style>
+---------------------
+
+-->
+<a href="GOLD相対パス" target="_parent" id="pc-left-banner"></a>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/steamships/rakuten-common-style@latest/css/pc-left-banner.css">
+<script src="//unpkg.com/jquery"></script>
+<script>
+jQuery(function($){
+	if ( location.host.match(/local/) ) {
+		$('link').attr('href', '../css/pc-left-banner.css')
+	}
+})
+</script>
