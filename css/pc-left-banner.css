@@ -15,4 +15,6 @@ body{
 	width: 100%;
 	background-size: contain;
 	background-image: url(../img/qanda_banner_pc.png);
+	background-repeat: repeat-y;
+	z-index: 1;
 }
