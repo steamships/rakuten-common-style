@@ -3,6 +3,8 @@
 */
 body{
 	min-height: 10000000px;
+	margin: 0;
+	position: relative;
 }
 #pc-left-banner{
 	display: block;
