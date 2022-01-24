@@ -1,7 +1,7 @@
 /*
 　年末終わったらコメントアウト
 */
-body{
+/* body{
 	min-height: 10000000px;
 	margin: 0;
 	position: relative;
@@ -17,4 +17,4 @@ body{
 	background-image: url(../img/qanda_banner_pc.png);
 	background-repeat: repeat-y;
 	z-index: 1;
-}
+} */
